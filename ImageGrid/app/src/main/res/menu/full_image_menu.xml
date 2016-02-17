@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FullImageActivity">
+        <item
+            android:id="@+id/share_pic"
+            android:icon="@drawable/share"
+            android:title="@string/share_picture" />
+        <item
+            android:id="@+id/delete_image"
+            android:icon="@drawable/trash"
+            android:title="@string/trash" />
+</menu>
