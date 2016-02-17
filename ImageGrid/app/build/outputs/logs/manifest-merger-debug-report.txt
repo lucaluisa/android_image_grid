@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:2:1-31:12
+	xmlns:android
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:5:5-84
+	android:required
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:5:58-81
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:5:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:7:22-77
+application
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:12:9-41
+	android:allowBackup
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:14:9-59
+activity#ll.imagegrid.MainActivity
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:16:9-21:20
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:19:27-74
+activity#ll.imagegrid.FullImageActivity
+ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:23:9-26:20
+	android:theme
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:25:13-44
+	android:name
+		ADDED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml:24:13-46
+uses-sdk
+INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucaluisa/Documents/Luca/Business/AndroidStudio/ImageGrid/app/src/main/AndroidManifest.xml
